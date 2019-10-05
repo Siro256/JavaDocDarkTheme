@@ -474,14 +474,30 @@ td.colOne, th.colOne {
 
 th.colFirst, th.colSecond, th.colLast, th.colOne, .constantValuesContainer th {
     background: #0d293e;
-    border-bottom: 1px solid #9eadc0;
     border-top: 1px solid #9eadc0;
+    border-bottom: 1px solid #9eadc0;
     color: #FFFFFF;
     padding: 3px 3px 3px 7px;
     text-align: left;
 }
 th.colConstructorName {
     background-color: #202225;
+}
+
+tr.rowColor th.colSecond[scope=row] {
+    background-color: #0f0f0f;
+    border-right: 1px solid #9eadc0;
+    border-left: 1px solid #9eadc0;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+tr.altColor th.colSecond[scope=row] {
+    background-color: #1e1e1f;
+    border-right: 1px solid #9eadc0;
+    border-left: 1px solid #9eadc0;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 
 tr {
