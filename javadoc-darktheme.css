@@ -421,7 +421,7 @@ span.activeTableTab span {
 }
 
 span.activeTableTab span.tabEnd, span.tabEnd {
-    background-color: #f8981d;
+    background-color: #F8981D;
 }
 
 sup {
@@ -479,6 +479,9 @@ th.colFirst, th.colSecond, th.colLast, th.colOne, .constantValuesContainer th {
     color: #FFFFFF;
     padding: 3px 3px 3px 7px;
     text-align: left;
+}
+th.colConstructorName {
+    background-color: #202225;
 }
 
 tr {
@@ -586,3 +589,4 @@ ul.subNavList li {
     font-size: 90%;
     list-style: none;
 }
+
